@@ -6,8 +6,7 @@ public class ArrayList<E> implements List<E> {
 
 	@Override
 	public Iterator<E> iterator() {
-		// TODO Auto-generated method stub
-		return null;
+		return new ArrayListIterator();
 	}
 
 	@Override
@@ -73,6 +72,26 @@ public class ArrayList<E> implements List<E> {
 	@Override
 	public void clear() {
 		// TODO Auto-generated method stub
+		
+	}
+	
+	private class ArrayListIterator implements Iterator<E> {
+
+		public ArrayListIterator() {
+			// TODO Placeholder method stub
+		}
+		
+		@Override
+		public boolean hasNext() {
+			// TODO Auto-generated method stub
+			return false;
+		}
+
+		@Override
+		public E next() {
+			// TODO Auto-generated method stub
+			return null;
+		}
 		
 	}
 
